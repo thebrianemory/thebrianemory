@@ -18,27 +18,8 @@ body {
   }
 }
 
-/* Intro Section */
-.intro-section {
-  height: 500px;
-  padding-top: 150px;
-  text-align: center;
-  background: linear-gradient(
-    rgba(70, 130, 180, 0.85),
-    rgba(70, 130, 180, 0.85)
-  ), url('ws-mac-glasses2.jpg') no-repeat center;
-}
 .social-icons {
   width: 30px;
-}
-
-.header-h1 {
-  font-weight: bold;
-  font-size: 50px;
-  color: white;
-}
-.header-h2 {
-  color: white;
 }
 
 /* Lines Around Section Titles */
@@ -77,7 +58,19 @@ body {
 /* Section Headers */
 .section-header {
   font-weight: bold;
-  font-size: 45px;
+  font-size: 36px;
+}
+
+/* About section */
+.about-section {
+  padding-top: 130px;
+}
+
+.about-pic {
+  border: 2px solid #eee;
+  border-radius: 5%;
+  float: left;
+  margin: 0 10px 10px 0;
 }
 
 /* Blog Section */
@@ -109,23 +102,6 @@ body {
 .project-image {
   padding: 5px;
   margin: auto;
-}
-
-/* About Section */
-.about-section {
-  height: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  text-align: center;
-  background: rgba(70, 130, 180, 0.85);
-  color: white;
-
-}
-.about-pic {
-  border: 2px solid #eee;
-  border-radius: 5%;
-  float: left;
-  margin: 0 10px 10px 0;
 }
 
 /* Footer Section */
