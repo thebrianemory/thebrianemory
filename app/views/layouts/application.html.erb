@@ -10,11 +10,8 @@
 
   <body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top">
     <%= render 'layouts/navigation' %>
-    <%= render 'layouts/header' %>
-    <%= render 'layouts/blog' %>
-    <%= render 'layouts/projects' %>
-    <%= render 'layouts/about' %>
+    <%= yield %>
     <%= render 'layouts/footer' %>
-    <%= render 'layouts/to-top' %>
+
   </body>
 </html>
