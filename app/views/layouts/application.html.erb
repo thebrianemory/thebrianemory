@@ -8,9 +8,13 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top">
     <%= render 'layouts/navigation' %>
-    <%= render 'layouts/intro_section' %>
-    <%= yield %>
+    <%= render 'layouts/header' %>
+    <%= render 'layouts/blog' %>
+    <%= render 'layouts/projects' %>
+    <%= render 'layouts/about' %>
+    <%= render 'layouts/footer' %>
+    <%= render 'layouts/to-top' %>
   </body>
 </html>
