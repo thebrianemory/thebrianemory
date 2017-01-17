@@ -128,23 +128,6 @@ body {
   margin-right: 5px;
 }
 
-/* Connect Section */
-.connect-section {
-  height: 100%;
-  padding-top: 150px;
-  padding-bottom: 50px;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.90);
-  color: #fff;
-}
-/* Connect Form */
-  .form-control {
-  background: rgba(0, 0, 0, 0.90);
-  color: white;
-}
-.connect-button {
-  background: rgba(70,130,180,0.85);
-}
 /* Footer Section */
 .footer {
   text-align: right;
@@ -198,9 +181,9 @@ a.blog-title:hover {
 /* Media Queries
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-.about-pic {
-width: 100%;
-}
+  .about-pic {
+    width: 100%;
+  }
 }
 
 /* Extra Small Devices, Phones */
