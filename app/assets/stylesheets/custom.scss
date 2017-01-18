@@ -19,10 +19,6 @@ body {
   }
 }
 
-.social-icons {
-  width: 30px;
-}
-
 /* Lines Around Section Titles */
 .hr-section {
   display: block;
@@ -160,6 +156,9 @@ a.blog-title:hover {
   .about-pic {
     width: 100%;
   }
+  .social-icons {
+    width: 100%;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -173,6 +172,12 @@ a.blog-title:hover {
 @media only screen and (min-width : 768px) {
   .about-pic {
     width: 40%;
+  }
+  .social-icons {
+    width: 30px;
+  }
+  .social-text {
+    display: none;
   }
 }
 
