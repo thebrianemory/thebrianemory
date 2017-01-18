@@ -13,6 +13,7 @@ body {
   // background-size: 50%;
 }
 
+/* Navbar */
 @media(min-width:767px) {
   .navbar {
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -22,6 +23,15 @@ body {
   .top-nav-collapse {
     padding: 0;
   }
+}
+
+.nav-image {
+  margin-top: -5px;
+  text-align: right;
+}
+
+.nav-text {
+  margin-left: -20px;
 }
 
 /* Lines Around Section Titles */
@@ -145,7 +155,7 @@ body {
   opacity: 1;
 }
 
-
+/* Links */
 a.blog-title {
   color: #222;
   text-decoration: none;
