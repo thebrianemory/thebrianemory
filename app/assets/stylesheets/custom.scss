@@ -6,6 +6,11 @@ body {
     "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   background: #F7F7F7;
+  // background: linear-gradient(
+  //     rgba(247, 247, 247, .85),
+  //     rgba(247, 247, 247, .85)
+  //   ), url('giraffe.svg') no-repeat center center;
+  // background-size: 50%;
 }
 
 @media(min-width:767px) {
