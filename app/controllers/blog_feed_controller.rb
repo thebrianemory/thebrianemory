@@ -1,0 +1,2 @@
+class BlogFeedController < ApplicationController
+end
