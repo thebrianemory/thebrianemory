@@ -1,8 +1,8 @@
 class BlogFeedController < ApplicationController
 
-  def blog_posts
+  def blog_feed
     require 'rss'
-    rss_results = []
+    @posts = []
     rss = RSS::Parser.parse(open('https://medium.brianemory.com/feed').read, false).items[0..2]
 
     rss.each do |result|
@@ -11,8 +11,8 @@ class BlogFeedController < ApplicationController
                  link: result.link[/[^?]+/],
                  content: result.content_encoded.sub(/(<figure>).*(<\/figure>)/, '').truncate(200, separator: ' '),
                  image: result.content_encoded[/(https).*(.jpeg)/] }
-      rss_results.push(result)
+      @posts.push(result)
     end
-    rss_results
+    @posts
   end
 end
