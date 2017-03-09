@@ -19,8 +19,7 @@ class WelcomeController < ApplicationController
                  date: result.pubDate.strftime('%A, %d %b %Y at%l:%M %p'),
                  link: result.link[/[^?]+/],
                  heading: sanitizer.sanitize(result.content_encoded.sub(/(<h4>|<h3>)/, '<Z>').sub(/(<\/h4>|<\/h3>)/, '<Z>')[/(<Z>).*(<Z>)/]),
-                 content: sanitizer.sanitize(result.content_encoded.sub(/(<figure>).*(<\/figure>)/, '').truncate(300, separator: ' ').sub(/(<h4>|<h3>).*(<\/h4>|<\/h3>)/, '')),
-                 image: result.content_encoded[/(https).*(.jpeg|.png|.jpg)/] }
+                 content: sanitizer.sanitize(result.content_encoded.sub(/(<figure>).*(<\/figure>)/, '').truncate(300, separator: ' ').sub(/(<h4>|<h3>).*(<\/h4>|<\/h3>)/, '')) }
       @posts.push(result)
     end
     @posts
