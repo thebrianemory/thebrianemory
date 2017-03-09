@@ -1,6 +1,11 @@
 class WelcomeController < ApplicationController
 
   def index
+    get_blog_posts
+  end
+
+  private
+  def get_blog_posts
     require 'rss'
     @posts = []
     rss = RSS::Parser.parse(open('https://medium.brianemory.com/feed').read, false).items[0..2]
