@@ -34,11 +34,7 @@ class WelcomeController < ApplicationController
   end
 
   def get_date(date)
-    if date > 1.day.ago
-      "#{time_ago_in_words(date)} ago"
-    else
-      date.strftime('%b %d, %Y')
-    end
+    date > 1.day.ago ? "#{time_ago_in_words(date)} ago" : date.strftime('%b %d, %Y')
   end
 
   def get_link(link)
