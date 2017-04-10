@@ -11,7 +11,8 @@
           <%= render partial: 'layouts/post', collection: @posts %>
         </div>
         <div>
-          <a href="https://medium.brianemory.com/" target="_blank"><button class="btn btn-default">Read more posts on Medium</button></a>
+          <%= link_to 'Read more posts on Medium', 'https://medium.brianemory.com', target: '_blank',
+                                                    class: 'btn btn-default' %>
         </div>
       </div>
     </div>
