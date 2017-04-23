@@ -5,20 +5,43 @@ body {
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  background: #F7F7F7;
-  // background: linear-gradient(
-  //     rgba(247, 247, 247, .85),
-  //     rgba(247, 247, 247, .85)
-  //   ), url('giraffe.svg') no-repeat center center;
-  // background-size: 50%;
+  background: #b6b6b6;
+  color: #022e3d;
+}
+
+/* Custom colors */
+.blue-text, .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: #022e3d;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #022e3d;
+}
+
+.navbar-default .navbar-toggle, .navbar-default {
+  border-color: #022e3d;
+}
+
+a {
+  color: #045F7C;
+}
+
+.custom-btn {
+  background-color:#022e3d;
+  color: white;
 }
 
 /* Navbar */
+.container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+  background: #b6b6b6;
+}
+
 @media(min-width:767px) {
   .navbar {
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
+    background: #b6b6b6;
   }
   .top-nav-collapse {
     padding: 0;
@@ -32,6 +55,12 @@ body {
 
 .nav-text {
   margin-left: -20px;
+  // color: #022e3d !important;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color:#022e3d;
+  color: white;
 }
 
 /* Lines Around Section Titles */
@@ -54,7 +83,7 @@ body {
   top: 50%;
   width: 9999px;
   /* Here is the modification */
-  border-top: 4px double #eee;
+  border-top: 4px double #022e3d;
 }
 
 .hr-section > .section-header:before {
@@ -79,7 +108,7 @@ body {
 }
 
 .about-pic {
-  border: 1px solid #000;
+  border: 1px solid #022e3d;
   border-radius: 5%;
   float: left;
   margin: 0 10px 10px 0;
@@ -112,13 +141,14 @@ body {
 .project-image {
   padding: 5px;
   margin: auto;
-  border: 1px solid #eee;
+  border: 1px solid #022e3d;
 }
 
 /* Footer Section */
 .footer {
   text-align: right;
 }
+
 /* Back To Top Button
 ======================================*/
 
@@ -157,7 +187,7 @@ body {
 
 /* Links */
 a.blog-title {
-  color: #222;
+  color: #022e3d;
   text-decoration: none;
 }
 
@@ -214,9 +244,9 @@ img.fw-icons {
   padding-right: 5px;
 }
 
-.learn-link {
-  color: #a9a9a9;
-}
+// .learn-link {
+//   color: #a9a9a9;
+// }
 
 .blog-title {
   height: 3em
