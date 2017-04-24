@@ -102,9 +102,16 @@ a {
   font-size: 36px;
 }
 
+/* Section Titles */
+.blog-section, .faq-section, .projects-section {
+  padding-top: 150px;
+  text-align: center;
+}
+
 /* About section */
 .about-section {
   padding-top: 130px;
+  text-align: center;
 }
 
 .about-pic {
@@ -115,10 +122,6 @@ a {
 }
 
 /* Blog Section */
-.blog-section {
-  padding-top: 150px;
-  text-align: center;
-}
 .blog-header {
   font-weight: bold;
   font-size: 50px;
@@ -133,10 +136,6 @@ a {
 }
 
 /* Projects Section */
-.projects-section {
-  padding-top: 150px;
-  text-align: center;
-}
 
 .project-image {
   padding: 5px;
