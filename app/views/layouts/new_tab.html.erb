@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>about:blank</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- Favicons -->
+    <%= favicon_link_tag "icons/favicon-96x96.png", rel: "icon", type: "image/png" %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

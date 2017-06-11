@@ -1,5 +1,5 @@
 class NewTabController < ApplicationController
-  layout false
+  layout "new_tab"
 
   def index
   end
