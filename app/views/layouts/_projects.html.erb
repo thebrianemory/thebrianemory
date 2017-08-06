@@ -30,7 +30,7 @@
               <%= link_to image_tag("port-vidshare.png", class: "img-responsive project-image"),
                                     'https://team-vidshare.herokuapp.com/', target: '_blank' %>
               <p class="text-left">
-                Vidshare is an Elixir/Phoenix port of my Rails app Flatcasts. I wanted to build something using Elixir/Phoenix so updating Flatcasts seemed like a great choice. Signed in users can add videos using only the URL from YouTube or Vimeo. The app talks with the API, grabs the relevant video information, adds it to the database, and creates an embedded video on the show page.
+                Vidshare is an Elixir/Phoenix port of my Rails app Flatcasts. I wanted to build something using Elixir/Phoenix so updating Flatcasts seemed like a great choice. Signed in users can add videos using just the URL from YouTube or Vimeo. The app talks with the API, grabs the relevant video information, adds it to the database, and creates an embedded video on the show page.
               </p>
             </div>
             <div class="col-md-4">
@@ -41,43 +41,18 @@
               <%= link_to image_tag("port-schedule-app.png", class: "img-responsive project-image"),
                                     'https://my-schedule-app.herokuapp.com', target: '_blank'  %>
               <p class="text-left">
-                My wife was given a spreadsheet to create her employees' schedule from week to week. She has another spreadsheet to keep up with their availability. This seems pretty archaic and can be a pain when balancing 18 employees (thankfully it's not more). I looked around at other scheduling apps and could not find a free one that fit the bill. So I decided to make her one.
+                My wife was given a spreadsheet to create her employees' schedule from week to week. She has another spreadsheet to keep up with their availability. This a pain when balancing 18 employees. I looked around at other scheduling apps and could not find a free one that fit the bill. So I decided to make her one. Currently in Rails and soon to be redone with Elixir/Phoenix.
               </p>
             </div>
-            <div class="col-md-4">
-              <h3>
-                Flatcasts <%= link_to 'GitHub', 'https://github.com/thebrianemory/flatcasts', target: '_blank',
-                                                 class: 'btn btn-xs custom-btn' %>
-              </h3>
-              <%= link_to image_tag("port-flatcasts.jpg", class: "img-responsive project-image"),
-                                    'http://www.flatcasts.com', target: '_blank' %>
-              <p class="text-left">
-                Flatcasts is my final Project for <%= link_to 'Flatiron School', 'https://www.flatironschool.com', target: '_blank' %>. I set out to solve a need for my fellow students. If a student were looking for a lecture, they would have to ask in our Slack channel, dig through past lessons, or search in a Google Doc. With Flatcasts, they can search for lectures and easily add new ones using only the YouTube URL. This was built with a Rails back-end API, an Angular front-end, and deployed to Heroku.
-              </p>
-            </div>
-          </div>
-
-          <div class="row">
             <div class="col-md-4">
               <h3>
                 Corneal <%= link_to 'GitHub', 'https://github.com/thebrianemory/corneal', target: '_blank',
                                                class: 'btn btn-xs custom-btn' %>
-            </h3>
-            <%= link_to image_tag("port-corneal.jpg", class: "img-responsive project-image"),
-                                  'https://github.com/thebrianemory/corneal', target: '_blank' %>
-            <p class="text-left">
-              While building my Sinatra Project for <%= link_to 'Flatiron School', 'https://www.flatironschool.com', target: '_blank' %>, I had a small bit of trouble getting the app structure setup. There was not really anything that could get me off and running like how in Rails, you can always run <code>rails new app-name</code> and be ready to go. Closest thing I found was a gem called Hazel. One of my instructors suggested making my own gem that mirrored the structure I had become accustom to using. With that, Corneal was born.
-            </p>
-            </div>
-            <div class="col-md-4">
-              <h3>
-                Travsto <%= link_to 'GitHub', 'https://github.com/thebrianemory/travsto', target: '_blank',
-                                               class: 'btn btn-xs custom-btn' %>
               </h3>
-              <%= link_to image_tag("port-travsto.jpg", class: "img-responsive project-image"),
-                                    'https://travsto.herokuapp.com', target: '_blank' %>
+              <%= link_to image_tag("port-corneal.jpg", class: "img-responsive project-image"),
+                                    'https://github.com/thebrianemory/corneal', target: '_blank' %>
               <p class="text-left">
-                Travsto is an app built for my Rails assessment at <%= link_to 'Flatiron School', 'https://www.flatironschool.com', target: '_blank' %>. It is my first Rails app that was not simply following a tutorial. It was initially entirely built using Rails and deployed to Heroku. Later, as part of my Rails and JavaScript assessment, I updated the front-end to use JavaScript for displaying the data and adding/editing comments without needing to refresh the page.
+                Corneal is an open source Sinatra app generator with Rails-like simplicity. I wanted something as easy as <code>rails new app-name</code> for a project I was working on. Closest thing I found was a gem called Hazel. It was suggested to me to make my own. I forked Hazel and like that, Corneal was born. It was featured in <%= link_to %'Ruby Weekly #353', 'http://rubyweekly.com/issues/353', target: '_blank', class: 'about-link' %>.
               </p>
             </div>
           </div>
