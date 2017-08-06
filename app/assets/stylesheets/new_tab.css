@@ -5,3 +5,11 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+#this-stuff {
+  color: red;
+}
+
+.what-now {
+  color: black;
+}
